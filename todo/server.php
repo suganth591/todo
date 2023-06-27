@@ -1,5 +1,5 @@
 <?php
-$conn= new mysqli("localhost","root","","todo");
+$conn= new mysqli("sql12.freesqldatabase.com:3306","sql12629040","uNBy1wCvxc","sql12629040");
 if(isset($_POST['add'])){
 $task=$_POST['task'];
 $dead=$_POST['dead'];
